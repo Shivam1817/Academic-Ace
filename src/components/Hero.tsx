@@ -10,17 +10,17 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="pt-20 pb-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section id="home" className="pt-20 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
           {/* Content */}
           <div className="mb-12 lg:mb-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
               Expert Academic Support for 
-              <span className="text-blue-600"> Student Success</span>
+              <span className="text-blue-400"> Student Success</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+            <p className="text-xl text-gray-200 mb-8 leading-relaxed">
               Get professional assignment help and academic support from our team of experts. 
               Plagiarism-free content, timely delivery, and comprehensive assistance across all subjects.
             </p>
@@ -28,16 +28,16 @@ const Hero: React.FC = () => {
             {/* Trust Indicators */}
             <div className="flex flex-wrap gap-6 mb-8">
               <div className="flex items-center space-x-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
-                <span className="text-gray-700 font-medium">100% Plagiarism-Free</span>
+                <CheckCircle className="w-5 h-5 text-green-300" />
+                <span className="text-gray-200 font-medium">100% Plagiarism-Free</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Clock className="w-5 h-5 text-blue-500" />
-                <span className="text-gray-700 font-medium">On-Time Delivery</span>
+                <Clock className="w-5 h-5 text-blue-300" />
+                <span className="text-gray-200 font-medium">On-Time Delivery</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Users className="w-5 h-5 text-purple-500" />
-                <span className="text-gray-700 font-medium">Expert Writers</span>
+                <Users className="w-5 h-5 text-purple-300" />
+                <span className="text-gray-200 font-medium">Expert Writers</span>
               </div>
             </div>
 
