@@ -233,7 +233,7 @@ const ContactForm: React.FC = () => {
                   <Phone className="w-5 h-5 text-blue-600" />
                   <div>
                     <div className="font-medium text-gray-900">Phone</div>
-                    <div className="text-gray-600">+91 9163366529</div>
+                    <div className="text-gray-600">+91 7676359894</div>
                   </div>
                 </div>
 

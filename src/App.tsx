@@ -19,7 +19,7 @@ function App() {
         <Footer />
       </div>
       <a
-        href="https://api.whatsapp.com/send?phone=+919163366529"
+        href="https://api.whatsapp.com/send?phone=917676359894"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-5 right-5 bg-green-500 text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-green-600 z-50"

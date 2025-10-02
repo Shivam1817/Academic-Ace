@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, BookOpen, Phone, Mail } from 'lucide-react';
+import { Menu, X, Phone, Mail } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,10 +18,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-              <BookOpen className="w-6 h-6 text-white" />
-            </div>
-            <span className="text-2xl font-bold text-gray-900">Academic Ace</span>
+            <img src="/logo.png" alt="Academic Ace Logo" className="h-12 w-auto" />
           </div>
 
           {/* Desktop Navigation */}

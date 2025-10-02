@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Mail, Phone, MapPin } from 'lucide-react';
+import { MailOpen, Phone, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -11,10 +11,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <BookOpen className="w-5 h-5 text-white" />
-              </div>
-              <span className="text-xl font-bold">Academic Ace</span>
+              <img src="/logo.png" alt="Academic Ace Logo" className="w-auto h-auto" />
             </div>
             <p className="text-gray-400 mb-4">
               Expert academic support and assignment help for students worldwide. 
@@ -56,6 +53,8 @@ const Footer: React.FC = () => {
               <li><a href="#" className="hover:text-white transition-colors">Canada</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Australia</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Germany</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">New Zealand</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Spain</a></li>
             </ul>
           </div>
 
@@ -64,12 +63,12 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-blue-400" />
+                <MailOpen className="w-5 h-5 text-blue-400" />
                 <a href="mailto:academicace08@gmail.com" className="text-gray-400 hover:text-white transition-colors">academicace08@gmail.com</a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+919163366529" className="text-gray-400 hover:text-white transition-colors">+91 9163366529</a>
+                <a href="tel:+917676359894" className="text-gray-400 hover:text-white transition-colors">+91 7676359894</a>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400" />

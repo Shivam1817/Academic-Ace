@@ -111,11 +111,11 @@ const About: React.FC = () => {
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-20">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">10,000+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">1,000+</div>
               <div className="text-gray-600 font-medium">Happy Students</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-green-600 mb-2">500+</div>
+              <div className="text-4xl font-bold text-green-600 mb-2">10+</div>
               <div className="text-gray-600 font-medium">Expert Writers</div>
             </div>
             <div className="text-center">
