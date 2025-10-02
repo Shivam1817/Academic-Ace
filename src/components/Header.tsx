@@ -19,6 +19,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img src="/logo.png" alt="Academic Ace Logo" className="h-12 w-auto" />
+            <span className="text-2xl font-bold text-gray-900">Academic Ace</span>
           </div>
 
           {/* Desktop Navigation */}
